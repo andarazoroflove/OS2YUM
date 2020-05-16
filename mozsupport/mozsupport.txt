@@ -1,0 +1,90 @@
+These DLL files were extracted from archives on rpm.netlabs.org/Hobbes:
+http://rpm.netlabs.org/release/00/zip/bzip2-1_0_6-6_oc00.zip
+http://rpm.netlabs.org/release/00/zip/cairo-1_12_18-4_oc00.zip
+http://rpm.netlabs.org/release/00/zip/expat-2_1_0-13_oc00.zip
+http://rpm.netlabs.org/release/00/zip/fontconfig-2_12_4-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/fontconfig-legacy-2_11_94-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/freetype-2_8_0-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/gettext-0_19_8_1-3_oc00.zip
+http://rpm.netlabs.org/release/00/zip/glib2-2_33_12-3_oc00.zip
+http://rpm.netlabs.org/release/00/zip/icu-56_1-2_oc00.zip
+http://rpm.netlabs.org/release/00/zip/libc-0_1_1-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/libcx-0_6_5-1_oc00.zip
+http://hobbes.nmsu.edu/h-search.php?key=libkai-1.2.0.zip
+http://rpm.netlabs.org/release/00/zip/libpng-1_6_31-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/libvpx-1_6_1-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/mmap-0_5-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/pango-1_28_4-2_oc00.zip
+http://rpm.netlabs.org/release/00/zip/pixman-0_32_8-4_oc00.zip
+http://rpm.netlabs.org/release/00/zip/pthread-20190130-23_oc00.zip
+http://rpm.netlabs.org/release/00/zip/sqlite-3_7_2-5_oc00.zip
+http://rpm.netlabs.org/release/00/zip/urpo-20160630-12_oc00.zip
+http://rpm.netlabs.org/release/00/zip/zlib-1_2_11-2_oc00.zip
+nss/
+https://bitbucket.org/dryeo/dry-comm-esr31/downloads/nspr4.zip
+http://rpm.netlabs.org/release/00/zip/nss-3_23_0-4_oc00.zip
+firefox/
+http://rpm.netlabs.org/release/00/zip/hunspell-1_6_2-1_oc00.zip
+http://rpm.netlabs.org/release/00/zip/libjpeg-turbo-1_5_1-1_oc00.zip
+
+You will need to put them in your LIBPATH.  Be sure to replace older versions
+of these files, and that there aren't any in other LIBPATH locations.
+
+The NSPR and NSS DLLs in the nss folder were previously included with the
+Mozilla application ZIP files; those also need to be in your LIBPATH, but be
+cautious about having older Mozilla apps loaded in memory without using
+LIBPATHSTRICT.  NOTE: the latest ESR45 SUa2 builds already include newer
+versions of these.
+
+For Firefox 45+, you need the extra DLLs in the firefox folder (untested).
+
+The current version of Fontconfig requires several configuration files to work
+correctly; you'll need to extract the full package in the root of the same
+drive as your Mozilla application, or set UNIXROOT to the desired drive:
+http://rpm.netlabs.org/release/00/zip/fontconfig-2_12_4-1_oc00.zip
+
+If you are missing any GCC, SSP, or STDCPP DLL files, be sure to install the
+latest GCC support package, from December 2015 or later:
+ftp://ftp.netlabs.org/pub/gcc/gcc4core-1_3_1.wpi
+
+If you wish to enable H.264 and AAC support, get the additional / optional
+mozmedia support package from the Warpzilla Tips page.
+
+The included files should be useful for Mozilla builds up through and
+concurrent with ESR 45. For current requirements, consult:
+https://github.com/bitwiseworks/mozilla-os2/blob/master/widget/os2/README.OS2
+
+Changes:
+
+2019-07-07 - SW  - Updated libcx0; added libcn0
+                   NOTE: nss/* not needed for SUa2 builds
+2019-04-21 - SW  - Updated cairo2, glib20, gmod20, gobj20, libcx0
+                   Updated pixman10, pthr01
+2018-05-05 - SW  - Updated hunspel0, icudt, icuin, icuuc, libcx0, pthr01
+2017-10-14 - SW  - Updated expat7, freetyp6, fntcnf1, libcx0, png1616, z, z1
+                   Updated nspr4, plc4, plds4; added expat1
+2017-06-04 - SW  - Added libvpx4, updated libcx0
+                   Split out firefox folder with hunspell and libjpeg-turbo
+2017-05-27 - SW  - Updated libcx0, plus nss and nspr modules
+2017-04-02 - SW  - Updated freetyp6, libcx0, png1616, z; added z1
+2016-12-24 - SW  - Updated fntcnf1, freetyp6; added libcx0
+2016-07-21 - SW  - Split out the optional mozmedia package
+2016-07-20 - SW  - Added sqlit3 required by softokn3
+2016-07-19 - SW  - Updated bz2, cairo2, intl8, pango100, pthr01, urpo
+                   Replaced glib2, gmod2, gobj2 with glib20, gmod20, gobj20
+                   Added missing avdevi56, freebl3, nssdbm3, softokn3
+2016-06-11 - SW  - Updated cairo2, png1616; removed lzma
+                   Added ffmpeg-libs, nss, and nspr for Firefox
+2016-05-10 - SW  - Added icudt, icuin, icuuc, bz2, lzma, and libav DLLs
+2016-04-29 - SW  - Updated fntcnf1
+2016-03-16 - SW  - Updated fntcnf1, pixman10
+2016-02-29 - SW  - Updated glib2, gmod2, gobj2, gthr2 (2.25 build is newer than 2.33!)
+2016-02-27 - SW  - Updated freetyp6 and png1616; added fntcnf1, glib2, gobj2, urpo
+                   added cairo2, gmod2, gthr2, intl8, pango100, pixman10
+2016-02-06 - SW  - Updated kai0; removed fntcnf1 (more than DLL is needed)
+2016-01-16 - SW  - Added expat7, fntcfg2, fntcnf1, png1616, z; removed stdcpp6
+2015-08-02 - SW  - Updated pthr01; removed png1616, z, freetyp6, urpo
+2015-07-25 - SW  - Added kai DLL
+2015-03-15 - SW  - Added freetyp6, png1616.dll, stdcpp6, urpo, and z DLLs
+2014-09-13 - SW  - Updated mmap and pthr01; removed gcc and stdcpp DLLs
+2014-08-03 - LGR - Updated pthr01.dll; added gcc473.dll, and stdcpp6.dll.
