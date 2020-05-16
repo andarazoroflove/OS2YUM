@@ -1,0 +1,249 @@
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package yum.pentium4 0:3.4.3-11.oc00 set to be updated
+--> Processing Dependency: python(abi) = 2.7 for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: rpm >= 4.4.2 for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: urlgrabber >= 3.1.0-0 for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: python >= 2.4 for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: yum-metadata-parser >= 1.1.0 for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: python-sqlite for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: /@unixroot/usr/bin/bash for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: doscalls.dll for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: gcc1.dll for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: rpm-python for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: /@unixroot/usr/bin/python for package: yum-3.4.3-11.oc00.pentium4
+--> Processing Dependency: libc066.dll for package: yum-3.4.3-11.oc00.pentium4
+--> Running transaction check
+---> Package bash.i686 0:3.2.0-8.oc00 set to be updated
+--> Processing Dependency: emxlibcm.dll for package: bash-3.2.0-8.oc00.i686
+--> Processing Dependency: emx.dll for package: bash-3.2.0-8.oc00.i686
+---> Package libc.i686 1:0.1.3-1.oc00 set to be updated
+--> Processing Dependency: klusrmgr >= 1.2.2 for package: 1:libc-0.1.3-1.oc00.i686
+---> Package libgcc.pentium4 0:9.2.0-2.oc00 set to be updated
+---> Package os2-base.pentium4 0:0.0.1-2.oc00 set to be updated
+--> Processing Dependency: os2-rpm >= 1-2 for package: os2-base-0.0.1-2.oc00.pentium4
+--> Processing Dependency: /@unixroot/usr/bin/sh for package: os2-base-0.0.1-2.oc00.pentium4
+--> Processing Dependency: /@unixroot/usr/bin/sh for package: os2-base-0.0.1-2.oc00.pentium4
+---> Package python.pentium4 0:2.7.6-24.oc00 set to be updated
+--> Processing Dependency: python-libs = 2.7.6-24.oc00 for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: db4 > 4.8.30-6 for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: pthread >= 20171227 for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: libcx >= 0.6.3 for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: readln6.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: libcx0.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: ssl10.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: sqlit3.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: tcpip32.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: z1.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: crypto10.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: /@unixroot/usr/bin/env for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: panel5.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: ncurses5.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: tinfo5.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: python27.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: bz2.dll for package: python-2.7.6-24.oc00.pentium4
+--> Processing Dependency: expat1.dll for package: python-2.7.6-24.oc00.pentium4
+---> Package python2-rpm.pentium4 0:4.13.0-19.oc00 set to be updated
+--> Processing Dependency: rpm-libs = 4.13.0-19.oc00 for package: python2-rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: ssp.dll for package: python2-rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: rpmbuil7.dll for package: python2-rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: rpm7.dll for package: python2-rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: rpmio7.dll for package: python2-rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: rpmsign7.dll for package: python2-rpm-4.13.0-19.oc00.pentium4
+---> Package rpm.pentium4 0:4.13.0-19.oc00 set to be updated
+--> Processing Dependency: popt >= 1.10.2.1 for package: rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: intl8.dll for package: rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: db4-utils for package: rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: popt.dll for package: rpm-4.13.0-19.oc00.pentium4
+--> Processing Dependency: curl for package: rpm-4.13.0-19.oc00.pentium4
+---> Package urlgrabber.noarch 0:3.10.1-10.oc00 set to be updated
+--> Processing Dependency: python-pycurl for package: urlgrabber-3.10.1-10.oc00.noarch
+---> Package yum-metadata-parser.pentium4 0:1.1.4-7.oc00 set to be updated
+--> Processing Dependency: glib2 for package: yum-metadata-parser-1.1.4-7.oc00.pentium4
+--> Processing Dependency: libxml2 for package: yum-metadata-parser-1.1.4-7.oc00.pentium4
+--> Processing Dependency: glib20.dll for package: yum-metadata-parser-1.1.4-7.oc00.pentium4
+--> Processing Dependency: libxml2.dll for package: yum-metadata-parser-1.1.4-7.oc00.pentium4
+--> Processing Dependency: sqlite for package: yum-metadata-parser-1.1.4-7.oc00.pentium4
+--> Running transaction check
+---> Package bzip2-libs.pentium4 0:1.0.6-6.oc00 set to be updated
+---> Package coreutils.pentium4 0:8.31-1.oc00 set to be updated
+--> Processing Dependency: coreutils-common = 8.31-1.oc00 for package: coreutils-8.31-1.oc00.pentium4
+--> Processing Dependency: ncurses for package: coreutils-8.31-1.oc00.pentium4
+--> Processing Dependency: gmp.dll for package: coreutils-8.31-1.oc00.pentium4
+---> Package curl.pentium4 0:7.37.0-2.oc00 set to be updated
+--> Processing Dependency: libcurl = 7.37.0-2.oc00 for package: curl-7.37.0-2.oc00.pentium4
+--> Processing Dependency: curl7.dll for package: curl-7.37.0-2.oc00.pentium4
+--> Processing Dependency: urpo.dll for package: curl-7.37.0-2.oc00.pentium4
+--> Processing Dependency: gcc473.dll for package: curl-7.37.0-2.oc00.pentium4
+---> Package dash-sh.pentium4 0:0.5.10.2-1.oc00 set to be updated
+--> Processing Dependency: dash for package: dash-sh-0.5.10.2-1.oc00.pentium4
+---> Package db4.pentium4 0:4.8.30-8.oc00 set to be updated
+--> Processing Dependency: mmap >= 20110102 for package: db4-4.8.30-8.oc00.pentium4
+---> Package db4-utils.pentium4 0:4.8.30-8.oc00 set to be updated
+---> Package emxrt.i386 0:0.9d-5.oc00 set to be updated
+---> Package expat.pentium4 0:2.1.0-13.oc00 set to be updated
+---> Package gettext-libs.pentium4 0:0.19.8.1-3.oc00 set to be updated
+--> Processing Dependency: stdcpp6.dll for package: gettext-libs-0.19.8.1-3.oc00.pentium4
+---> Package glib2.pentium4 0:2.33.12-3.oc00 set to be updated
+--> Processing Dependency: libgobject-2_0-0 = 2.33.12 for package: glib2-2.33.12-3.oc00.pentium4
+--> Processing Dependency: libgmodule-2_0-0 = 2.33.12 for package: glib2-2.33.12-3.oc00.pentium4
+--> Processing Dependency: libgthread-2_0-0 = 2.33.12 for package: glib2-2.33.12-3.oc00.pentium4
+--> Processing Dependency: gmod20.dll for package: glib2-2.33.12-3.oc00.pentium4
+--> Processing Dependency: gobj20.dll for package: glib2-2.33.12-3.oc00.pentium4
+---> Package klusrmgr.i686 0:1.3.1-1.oc00 set to be updated
+--> Processing Dependency: rxcrypt >= 1.0.0 for package: klusrmgr-1.3.1-1.oc00.i686
+--> Processing Dependency: bww-resources-rpm >= 1.1.0 for package: klusrmgr-1.3.1-1.oc00.i686
+---> Package libcx.pentium4 0:0.6.6-1.oc00 set to be updated
+---> Package libglib-2_0-0.pentium4 0:2.33.12-3.oc00 set to be updated
+---> Package libssp-fwd.pentium4 0:9.2.0-2.oc00 set to be updated
+--> Processing Dependency: libssp = 9.2.0-2.oc00 for package: libssp-fwd-9.2.0-2.oc00.pentium4
+--> Processing Dependency: ssp0.dll for package: libssp-fwd-9.2.0-2.oc00.pentium4
+---> Package libxml2.pentium4 0:2.9.9-2.oc00 set to be updated
+--> Processing Dependency: lzma5.dll for package: libxml2-2.9.9-2.oc00.pentium4
+---> Package ncurses-libs.pentium4 0:5.9-1.oc00 set to be updated
+--> Processing Dependency: ncurses-base = 5.9-1.oc00 for package: ncurses-libs-5.9-1.oc00.pentium4
+---> Package openssl-libs.pentium4 0:1.0.2t-1.oc00 set to be updated
+--> Processing Dependency: openssl = 1.0.2t-1.oc00 for package: openssl-libs-1.0.2t-1.oc00.pentium4
+--> Processing Dependency: ca-certificates >= 2008-5 for package: openssl-libs-1.0.2t-1.oc00.pentium4
+---> Package os2-mpts.pentium4 0:0.0.0-2.oc00 set to be updated
+---> Package os2-rpm.noarch 0:1-9.oc00 set to be updated
+--> Processing Dependency: cube for package: os2-rpm-1-9.oc00.noarch
+---> Package popt.pentium4 1:1.15-5.oc00 set to be updated
+--> Processing Dependency: popt-data = 1:1.15-5.oc00 for package: 1:popt-1.15-5.oc00.pentium4
+---> Package popt-libs.pentium4 1:1.15-5.oc00 set to be updated
+---> Package pthread.pentium4 2:0.1.1-1.oc00 set to be updated
+---> Package python-libs.pentium4 0:2.7.6-24.oc00 set to be updated
+---> Package python-pycurl.pentium4 0:7.19.5.1-2.oc00 set to be updated
+---> Package readline.pentium4 0:6.1-4.oc00 set to be updated
+---> Package rpm-build-libs.pentium4 0:4.13.0-19.oc00 set to be updated
+--> Processing Dependency: magic1.dll for package: rpm-build-libs-4.13.0-19.oc00.pentium4
+---> Package rpm-libs.pentium4 0:4.13.0-19.oc00 set to be updated
+--> Processing Dependency: nspr >= 4.12.0-2 for package: rpm-libs-4.13.0-19.oc00.pentium4
+--> Processing Dependency: lua53.dll for package: rpm-libs-4.13.0-19.oc00.pentium4
+--> Processing Dependency: nss3.dll for package: rpm-libs-4.13.0-19.oc00.pentium4
+---> Package sqlite.pentium4 0:3.28.0-1.oc00 set to be updated
+---> Package sqlite-libs.pentium4 0:3.28.0-1.oc00 set to be updated
+---> Package zlib.pentium4 0:1.2.11-2.oc00 set to be updated
+--> Running transaction check
+---> Package bww-resources-rpm.noarch 0:1.1.4-1.oc00 set to be updated
+---> Package ca-certificates.noarch 0:2017.11-1.oc00 set to be updated
+---> Package coreutils-common.pentium4 0:8.31-1.oc00 set to be updated
+---> Package cube.i686 0:3.0-1.oc00 set to be updated
+---> Package dash.pentium4 0:0.5.10.2-1.oc00 set to be updated
+---> Package file-libs.pentium4 0:5.30-2.oc00 set to be updated
+---> Package gmp.pentium4 0:5.0.2-2.oc00 set to be updated
+---> Package libcurl.pentium4 0:7.37.0-2.oc00 set to be updated
+---> Package libgcc-fwd.pentium4 0:9.2.0-2.oc00 set to be updated
+---> Package libgmodule-2_0-0.pentium4 0:2.33.12-3.oc00 set to be updated
+---> Package libgobject-2_0-0.pentium4 0:2.33.12-3.oc00 set to be updated
+---> Package libgthread-2_0-0.pentium4 0:2.33.12-3.oc00 set to be updated
+---> Package libssp.pentium4 0:9.2.0-2.oc00 set to be updated
+---> Package libstdc++.pentium4 0:9.2.0-2.oc00 set to be updated
+---> Package lua-libs.pentium4 0:5.3.4-2 set to be updated
+---> Package mmap.pentium4 2:0.5-1.oc00 set to be updated
+---> Package ncurses.pentium4 0:5.9-1.oc00 set to be updated
+---> Package ncurses-base.pentium4 0:5.9-1.oc00 set to be updated
+---> Package nspr.pentium4 0:4.12.0-4.oc00 set to be updated
+---> Package nss.pentium4 0:3.23.0-4.oc00 set to be updated
+--> Processing Dependency: nss-softokn = 3.23.0-4.oc00 for package: nss-3.23.0-4.oc00.pentium4
+--> Processing Dependency: nss-util = 3.23.0-4.oc00 for package: nss-3.23.0-4.oc00.pentium4
+--> Processing Dependency: nssutil3.dll for package: nss-3.23.0-4.oc00.pentium4
+---> Package openssl.pentium4 0:1.0.2t-1.oc00 set to be updated
+---> Package popt-data.pentium4 1:1.15-5.oc00 set to be updated
+---> Package rxcrypt.pentium4 0:1.0.0-3.oc00 set to be updated
+---> Package urpo.pentium4 0:20160630-12.oc00 set to be updated
+---> Package xz-libs.pentium4 0:5.2.3-2.oc00 set to be updated
+--> Running transaction check
+---> Package nss-softokn.pentium4 0:3.23.0-4.oc00 set to be updated
+--> Processing Dependency: nss-softokn-freebl = 3.23.0-4.oc00 for package: nss-softokn-3.23.0-4.oc00.pentium4
+---> Package nss-util.pentium4 0:3.23.0-4.oc00 set to be updated
+--> Running transaction check
+---> Package nss-softokn-freebl.pentium4 0:3.23.0-4.oc00 set to be updated
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                Arch        Version                Repository      Size
+================================================================================
+Installing:
+ yum                    pentium4    3.4.3-11.oc00          netlabs-rel    1.3 M
+Installing for dependencies:
+ bash                   i686        3.2.0-8.oc00           netlabs-rel    373 k
+ bww-resources-rpm      noarch      1.1.4-1.oc00           netlabs-rel     25 k
+ bzip2-libs             pentium4    1.0.6-6.oc00           netlabs-rel     36 k
+ ca-certificates        noarch      2017.11-1.oc00         netlabs-rel    781 k
+ coreutils              pentium4    8.31-1.oc00            netlabs-rel    2.7 M
+ coreutils-common       pentium4    8.31-1.oc00            netlabs-rel    3.5 M
+ cube                   i686        3.0-1.oc00             netlabs-rel     26 k
+ curl                   pentium4    7.37.0-2.oc00          netlabs-rel    191 k
+ dash                   pentium4    0.5.10.2-1.oc00        netlabs-rel     85 k
+ dash-sh                pentium4    0.5.10.2-1.oc00        netlabs-rel     54 k
+ db4                    pentium4    4.8.30-8.oc00          netlabs-rel    740 k
+ db4-utils              pentium4    4.8.30-8.oc00          netlabs-rel     94 k
+ emxrt                  i386        0.9d-5.oc00            netlabs-rel    295 k
+ expat                  pentium4    2.1.0-13.oc00          netlabs-rel    104 k
+ file-libs              pentium4    5.30-2.oc00            netlabs-rel    600 k
+ gettext-libs           pentium4    0.19.8.1-3.oc00        netlabs-rel    1.1 M
+ glib2                  pentium4    2.33.12-3.oc00         netlabs-rel    2.7 M
+ gmp                    pentium4    5.0.2-2.oc00           netlabs-rel    259 k
+ klusrmgr               i686        1.3.1-1.oc00           netlabs-rel    151 k
+ libc                   i686        1:0.1.3-1.oc00         netlabs-rel    1.0 M
+ libcurl                pentium4    7.37.0-2.oc00          netlabs-rel    210 k
+ libcx                  pentium4    0.6.6-1.oc00           netlabs-rel     72 k
+ libgcc                 pentium4    9.2.0-2.oc00           netlabs-rel     82 k
+ libgcc-fwd             pentium4    9.2.0-2.oc00           netlabs-rel     14 k
+ libglib-2_0-0          pentium4    2.33.12-3.oc00         netlabs-rel    488 k
+ libgmodule-2_0-0       pentium4    2.33.12-3.oc00         netlabs-rel     10 k
+ libgobject-2_0-0       pentium4    2.33.12-3.oc00         netlabs-rel    146 k
+ libgthread-2_0-0       pentium4    2.33.12-3.oc00         netlabs-rel    7.8 k
+ libssp                 pentium4    9.2.0-2.oc00           netlabs-rel     38 k
+ libssp-fwd             pentium4    9.2.0-2.oc00           netlabs-rel    6.7 k
+ libstdc++              pentium4    9.2.0-2.oc00           netlabs-rel    480 k
+ libxml2                pentium4    2.9.9-2.oc00           netlabs-rel    763 k
+ lua-libs               pentium4    5.3.4-2                netlabs-rel    110 k
+ mmap                   pentium4    2:0.5-1.oc00           netlabs-rel    268 k
+ ncurses                pentium4    5.9-1.oc00             netlabs-rel    284 k
+ ncurses-base           pentium4    5.9-1.oc00             netlabs-rel     19 k
+ ncurses-libs           pentium4    5.9-1.oc00             netlabs-rel    183 k
+ nspr                   pentium4    4.12.0-4.oc00          netlabs-rel    116 k
+ nss                    pentium4    3.23.0-4.oc00          netlabs-rel    876 k
+ nss-softokn            pentium4    3.23.0-4.oc00          netlabs-rel    430 k
+ nss-softokn-freebl     pentium4    3.23.0-4.oc00          netlabs-rel    190 k
+ nss-util               pentium4    3.23.0-4.oc00          netlabs-rel     68 k
+ openssl                pentium4    1.0.2t-1.oc00          netlabs-rel    479 k
+ openssl-libs           pentium4    1.0.2t-1.oc00          netlabs-rel    954 k
+ os2-base               pentium4    0.0.1-2.oc00           netlabs-rel     15 k
+ os2-mpts               pentium4    0.0.0-2.oc00           netlabs-rel    1.4 k
+ os2-rpm                noarch      1-9.oc00               netlabs-rel     30 k
+ popt                   pentium4    1:1.15-5.oc00          netlabs-rel    3.0 k
+ popt-data              pentium4    1:1.15-5.oc00          netlabs-rel     21 k
+ popt-libs              pentium4    1:1.15-5.oc00          netlabs-rel     21 k
+ pthread                pentium4    2:0.1.1-1.oc00         netlabs-rel     13 k
+ python                 pentium4    2.7.6-24.oc00          netlabs-rel    5.7 M
+ python-libs            pentium4    2.7.6-24.oc00          netlabs-rel    917 k
+ python-pycurl          pentium4    7.19.5.1-2.oc00        netlabs-rel    147 k
+ python2-rpm            pentium4    4.13.0-19.oc00         netlabs-rel     61 k
+ readline               pentium4    6.1-4.oc00             netlabs-rel    170 k
+ rpm                    pentium4    4.13.0-19.oc00         netlabs-rel    699 k
+ rpm-build-libs         pentium4    4.13.0-19.oc00         netlabs-rel     87 k
+ rpm-libs               pentium4    4.13.0-19.oc00         netlabs-rel    274 k
+ rxcrypt                pentium4    1.0.0-3.oc00           netlabs-rel     53 k
+ sqlite                 pentium4    3.28.0-1.oc00          netlabs-rel    680 k
+ sqlite-libs            pentium4    3.28.0-1.oc00          netlabs-rel    612 k
+ urlgrabber             noarch      3.10.1-10.oc00         netlabs-rel    116 k
+ urpo                   pentium4    20160630-12.oc00       netlabs-rel    8.9 k
+ xz-libs                pentium4    5.2.3-2.oc00           netlabs-rel     87 k
+ yum-metadata-parser    pentium4    1.1.4-7.oc00           netlabs-rel     25 k
+ zlib                   pentium4    1.2.11-2.oc00          netlabs-rel     90 k
+
+Transaction Summary
+================================================================================
+Install      68 Package(s)
+Upgrade       0 Package(s)
+
+Total download size: 32 M
+Installed size: 32 M
+Is this ok [y/N]: Exiting on user Command
+Complete!
